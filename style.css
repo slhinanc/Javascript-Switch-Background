@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body #btn1{
+    width: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#btn{
+    padding: 20px 40px;
+    border: none;
+    font-size: 25px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #1e1c18 0%, #192c8c 51%, #b3e0ec 100%);
+    color: aliceblue;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+#button2{
+    padding: 20px 40px;
+    border: none;
+    font-size: 25px;
+    border-radius: 50%;
+    background: #1e1c18;
+    color: aliceblue;
+    cursor: pointer;
+    margin-left: 100px;
+}
